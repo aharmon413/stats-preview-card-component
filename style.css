@@ -1,0 +1,75 @@
+/* Lexend Deca & Inter fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    /* color variables */
+    --dark-blue: hsl(233, 47%, 7%); /* main background */
+    --desaturated-blue: hsl(244, 38%, 16%); /* card background */
+    --soft-violet: hsl(277, 64%, 61%); /* accent */
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--dark-blue);
+    color: hsl(0, 0%, 100%);
+    font-family: Inter, sans-serif;
+    margin: 4em;
+}
+
+.container {
+    background-color: var(--desaturated-blue);
+    margin: 0 auto;
+    text-align: center;
+}
+
+img.mobile {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Inter'; sans-serif;
+    font-size: 1.75em;
+}
+
+.accent {
+    color: var(--soft-violet);
+}
+
+.text {
+    padding: 1.5em;
+}
+
+p.main {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.75;
+    margin: 1em 0;
+}
+
+p.stats {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: .75em;
+    text-transform: uppercase;
+    margin: 0 0 2em 0;
+}
+
+p.number {
+    font-weight: 700;
+    font-size: 1.25em;
+    margin: .25em;
+}
+
+footer {
+    text-align: center;
+}
+
+img.desktop {
+    display: none;
+}
