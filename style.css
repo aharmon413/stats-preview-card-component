@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 :root {
-    /* color variables */
-    --dark-blue: hsl(233, 47%, 7%); /* main background */
-    --desaturated-blue: hsl(244, 38%, 16%); /* card background */
-    --soft-violet: hsl(277, 64%, 61%); /* accent */
     font-size: 100%;
     box-sizing: border-box;
 }
@@ -17,59 +13,89 @@
 }
 
 body {
-    background-color: var(--dark-blue);
+    background-color: hsl(233, 47%, 7%);
     color: hsl(0, 0%, 100%);
-    font-family: Inter, sans-serif;
-    margin: 4em;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375em;
+    margin: 1.5em;
 }
 
 .container {
-    background-color: var(--desaturated-blue);
-    margin: 0 auto;
+    background-color: hsl(244, 38%, 16%);
     text-align: center;
+    max-width: 350px;
+    margin: 4em auto 0 auto;
+    border-radius: 10px;
+}
+
+/* purple overlay on image */
+.image {
+    background: hsl(277, 75%, 35%);
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
 }
 
 img.mobile {
+    display: block;
     width: 100%;
-    height: auto;
+    opacity: 0.4;
+}
+
+/* larger version of image hidden on smaller screens */
+img.desktop {
+    display: none;
 }
 
 h1 {
-    font-family: 'Inter'; sans-serif;
-    font-size: 1.75em;
+    font-size: 1.85em;
 }
 
 .accent {
-    color: var(--soft-violet);
+    color: hsl(277, 64%, 61%);
 }
 
 .text {
-    padding: 1.5em;
+    padding: 2em;
 }
 
 p.main {
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.75;
-    margin: 1em 0;
+    margin: 1em 0 2em 0;
 }
 
-p.stats {
+.numbers {
+    margin-top: 2.25em;
+}
+
+p.metric {
     color: hsla(0, 0%, 100%, 0.6);
-    font-size: .75em;
+    font-size: .8em;
+    font-family: 'Lexend Deca', sans-serif;
     text-transform: uppercase;
-    margin: 0 0 2em 0;
+    margin: 0 0 2.5em 0;
+}
+
+p.metric:last-of-type {
+    margin: 0;
 }
 
 p.number {
     font-weight: 700;
-    font-size: 1.25em;
+    font-size: 1.5em;
     margin: .25em;
 }
 
 footer {
     text-align: center;
+    margin: 1em 0 3em 0;
+    opacity: .75;
 }
 
-img.desktop {
-    display: none;
+footer a {
+    color:hsl(277, 64%, 61%);
+}
+
+footer a:visited {
+    color:hsl(277, 64%, 81%)
 }
