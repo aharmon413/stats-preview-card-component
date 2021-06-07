@@ -68,12 +68,15 @@ p.main {
     margin-top: 2.25em;
 }
 
+.metric {
+    margin-bottom: 2em;
+}
+
 p.item {
     color: hsla(0, 0%, 100%, 0.6);
     font-size: .8em;
     font-family: 'Lexend Deca', sans-serif;
     text-transform: uppercase;
-    margin: 0 0 2.5em 0;
 }
 
 p.item:last-of-type {
