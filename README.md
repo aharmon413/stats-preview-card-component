@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/first-challenge-single-price-grid-with-mobilefirst-css-grid-dTCTGqQTW)
+- Solution URL: [View solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/mobilefirst-stats-preview-component-card-1RxWzu3JT)
 - Live Site URL: [View live site on Github Pages](https://aharmon413.github.io/stats-preview-card-component/)
 
 ## My process
